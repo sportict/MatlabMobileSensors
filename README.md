@@ -14,6 +14,9 @@ https://user-images.githubusercontent.com/62732939/133471896-bd612d69-9c8e-49a1-
 
 停止後、しばらくするとセンサ座標系の加速度とグローバル座標系の加速度のグラフと、ティーポットの姿勢がアニメーションで表示されます。
 
+<img width="421" alt="SCS" src="https://user-images.githubusercontent.com/62732939/133474615-be7fa492-547e-483f-abcc-0f3613b06a7e.png">
+<img width="421" alt="GCS" src="https://user-images.githubusercontent.com/62732939/133474634-09c25471-abcd-4f83-83f0-2b0fb976ee07.png">
+
 https://user-images.githubusercontent.com/62732939/133473094-bad51f46-1f87-4c68-9e9a-a5b53136b3fc.mp4
 
 測定したデータは、名前をつけてmatファイルとして保存ができます。
