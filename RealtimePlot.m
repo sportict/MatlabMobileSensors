@@ -61,14 +61,14 @@ while (1==1)
     end
     subplot(1,2,1)
     plot(t,accel);
-    xlabel('Time[s]');
+    xticks([])
     ylabel('Acceleration[m/s^2]');
     ax1 = gca;
     ax1.Toolbar.Visible = 'off';
-    if i < 200
-        xlim([0 2]);
+    if i < 20
+        xlim([0 20/fs]);
     else
-        xlim([i/fs-2 i/fs]);
+        xlim([i/fs-0.2 i/fs]);
     end
     drawnow
     i = i + 1;
