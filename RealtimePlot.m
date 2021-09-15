@@ -41,7 +41,7 @@ while (1==1)
     ori = m.Orientation;
     ori = deg2rad(ori);
     
-    if isempty(ac); break; end
+    if isempty(ori); break; end
     
     Rot = euler2rotMat(ori(3),ori(2),ori(1)*-1);
     rot_verts = Rot * verts';
@@ -114,7 +114,7 @@ M.orien = orien;
 M.quat = quat;
 M.acc_global = acc_global;
 
-save('mobile2.mat','M')
+save('mobile.mat','M')
 
 %--------------------------------------------------------------------------
 function [verts,p] = CreatePot()
